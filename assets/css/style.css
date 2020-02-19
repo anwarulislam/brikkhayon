@@ -17,8 +17,8 @@ body{
 }
 
 .box{
-    background-color: aquamarine;
-    min-height: 10em;
+    border: 1px solid #ddd;
+min-height: 4em;
     display: flex;
     align-items: center;
     justify-content: center;
