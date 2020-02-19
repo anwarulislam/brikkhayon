@@ -11,3 +11,15 @@ body{
         min-height: 6em;
     }
 }
+
+.is-center{
+    text-align: center;
+}
+
+.box{
+    background-color: aquamarine;
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
