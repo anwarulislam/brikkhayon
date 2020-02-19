@@ -12,16 +12,29 @@ svg {
     user-select: none;
     cursor: all-scroll;
 }
+
 @media screen and (max-width: 700px) {
     .slider-container {
         height: 40vh;
     }
 }
+@media screen and (max-width: 380px) {
+    .slider-container {
+        height: 35vh;
+    }
+}
+@media screen and (max-width: 365px) {
+    .slider-container {
+        height: 32vh;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .slider-container {
         height: 26vh;
     }
 }
+
 
 .slider-control {
     z-index: 2;
