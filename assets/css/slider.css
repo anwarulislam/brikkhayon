@@ -17,6 +17,11 @@ svg {
         height: 40vh;
     }
 }
+@media screen and (max-width: 350px) {
+    .slider-container {
+        height: 26vh;
+    }
+}
 
 .slider-control {
     z-index: 2;
@@ -150,7 +155,7 @@ svg {
 
 .slide:nth-child(1) .slide__bg {
     left: 0;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-3.jpg");
+    background-image: url("./../images/slider/Slide1.JPG");
 }
 
 .slide:nth-child(1) .slide__overlay-path {
@@ -169,7 +174,7 @@ svg {
 
 .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg");
+    background-image: url("./../images/slider/Slide2.JPG");
 }
 
 .slide:nth-child(2) .slide__overlay-path {
@@ -188,7 +193,7 @@ svg {
 
 .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("./../images/slider/nursery.png");
+    background-image: url("./../images/slider/Slide3.JPG");
 }
 
 .slide:nth-child(3) .slide__overlay-path {
@@ -207,7 +212,7 @@ svg {
 
 .slide:nth-child(4) .slide__bg {
     left: -150%;
-    background-image: url("./../images/slider/blueshirt.png");
+    background-image: url("./../images/slider/Slide4.JPG");
 }
 
 .slide:nth-child(4) .slide__overlay-path {
