@@ -7,7 +7,7 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
-    .navbar {
+    .main-nav {
         min-height: 6em;
     }
 }
@@ -22,4 +22,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-fixed-menu{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.footer-fixed-menu .navbar-item {
+    color: #fff;
+    flex: 1;
+    text-align: center;
+}
+.footer-fixed-menu .navbar-item:hover {
+    color: #4a4a4a;
 }
