@@ -121,3 +121,17 @@ $(document).ready(function () {
     });
 
 });
+
+
+const burger = document.querySelector('.navbar-burger')
+
+burger.addEventListener('click', openMenu)
+
+function openMenu(e) {
+    let menu = document.querySelector('.navbar-menu')
+    if (menu.style.display == 'none' || !menu.style.display) {
+        menu.style.display = 'block'
+    }else{
+        menu.style.display = 'none'
+    }
+}
